@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box !important;
+}
+*, *:before, *:after {
+  box-sizing: inherit !important;
+}
+
+html,
+body {
+  max-width: none !important;
+  width: 100vw !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+xpl-root,
+.global-ng-wrapper,
+.global-content-wrapper,
+.document.ng-document,
+.document-main {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  float: none !important;
+  position: relative !important;
+}
+
+.document-main-body {
+  max-width: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.document-main-left-trail,
+.document-main-content-container,
+.document-sidebar {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  transform: none !important;
+  float: none !important;
+  flex-basis: auto !important;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+.document-main-left-trail {
+  order: 1 !important;
+}
+
+.document-sidebar {
+  order: 2 !important;
+  display: block !important;
+
+  .document-sidebar-content {
+    min-width: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.document-main-content-container {
+  order: 3 !important;
+}
+
+.document-main-body > div[class*="col-"] {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  transform: none !important;
+  float: none !important;
+  order: 4 !important;
+}
+
+.document-main-left-trail .bg-ltgry.tab-nav,
+.document-main-content-container .tab-pane,
+.document-sidebar .header-rel-art {
+    padding: 15px !important;
+    width: auto !important;
+    margin: 0 !important;
+}
+
+.document-sidebar .Ads-leaderboard,
+.document-sidebar .ad-panel,
+.document-sidebar .ad-leaderboard-ad-container,
+.document-sidebar [id*="div-gpt-ad"],
+.document-sidebar [id*="div-gpt-ad"] iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 10px 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  float: none !important;
+  position: relative !important;
+}
+
+.row, .g-0 {
+  > [class*="col-"] {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
